@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Montaña</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/ionicons@latest/dist/css/ionicons.min.css">
+
+
+</head>
+
+<body>
+
+  <header class="flex flex-wrap items-center justify-between p-4">
+    <a href="#" class="brand text-2xl md:text-4xl">Montaña</a>
+    <input type="checkbox" id="menu-toggle" class="hidden">
+    <label for="menu-toggle" class="menu-icon md:hidden">
+      <span class="hidden"></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="navigation hidden md:flex md:items-center">
+      <a href="#" class="nav-link">Inicio</a>
+      <a href="#" class="nav-link">Acerca</a>
+      <a href="#" class="nav-link">Explorar</a>
+      <a href="#" class="nav-link">Galería</a>
+      <a href="#" class="nav-link">Contacto</a>
+    </nav>
+  </header>
+
+
+  <section class="home relative">
+    <video src="videos/video1.mp4" muted autoplay loop class="video-slider active"></video>
+    <video src="videos/video2.mp4" muted autoplay loop class="video-slider"></video>
+    <video src="videos/video3.mp4" muted autoplay loop class="video-slider"></video>
+    <video src="videos/video4.mp4" muted autoplay loop class="video-slider"></video>
+
+    <div class="content active  ">
+      <h1 class="text-6xl tracking-tighter font-bold">Aventura, <br> <span>Cerca</span></h1>
+      <p class="text-2xl ">Bienvenido a nuestra página web de turismo en montaña en Linares, Chile. Aquí encontrarás
+        todo lo que necesitas para planificar una aventura inolvidable en este hermoso destino de montaña.</p>
+      <button type="button"
+        class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Leer
+        Más</button>
+    </div>
+
+    <div class="content">
+      <h1 class="text-6xl tracking-tighter font-bold">Lugar, <br> <span>Cerca</span></h1>
+      <p class="text-2xl ">Linares es un lugar único en Chile, ubicado en la región del Maule, que ofrece un entorno
+        natural impresionante con majestuosas montañas, valles verdes y ríos cristalinos. Nuestra página web está
+        diseñada para brindarte información detallada sobre las atracciones turísticas, actividades al aire libre y
+        servicios disponibles en esta región montañosa.</p>
+      <button type="button"
+        class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Leer
+        Más</button>
+    </div>
+
+    <div class="content">
+      <h1 class="text-6xl tracking-tighter font-bold">Senderos, <br> <span>Cerca</span></h1>
+      <p class="text-2xl ">Bienvenidos a nuestra emocionante actividad de senderos de roca en Linares. Únete a nosotros
+        para disfrutar de una experiencia única en medio de la naturaleza montañosa de esta hermosa región en Chile.</p>
+      <button type="button"
+        class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Leer
+        Más</button>
+    </div>
+
+    <div class="content">
+      <h1 class="text-6xl tracking-tighter font-bold">Caminatas, <br> <span>Cerca</span></h1>
+      <p class="text-2xl ">Nuestras caminatas cerca de Linares te llevarán por senderos pintorescos y fascinantes.
+        Acompañado por nuestros guías expertos, explorarás paisajes diversos que incluyen bosques frondosos, cascadas
+        refrescantes y vistas panorámicas impresionantes.</p>
+      <button type="button"
+        class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Leer
+        Más</button>
+    </div>
+
+    <div class="media-icons">
+      <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-twitter"></ion-icon></i></a>
+    </div>
+
+
+
+    <div class="slider-navigation ">
+      <div class="nav-btn w-3 h-3 rounded-full bg-white"></div>
+      <div class="nav-btn w-3 h-3 rounded-full bg-white"></div>
+      <div class="nav-btn w-3 h-3 rounded-full bg-white"></div>
+      <div class="nav-btn w-3 h-3 rounded-full bg-white"></div>
+    </div>
+  </section>
+
+
+  <section>
+    <h1 class="text-center text-3xl font-bold">Sobre Nosotros</h1><br>
+
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="">
+        <p>Linares es un lugar único en Chile, ubicado en la región del Maule, que ofrece un entorno natural
+          impresionante con majestuosas montañas, valles verdes y ríos cristalinos. Nuestra página web está diseñada
+          para brindarte información detallada sobre las atracciones turísticas, actividades al aire libre y servicios
+          disponibles en esta región montañosa.</p>
+        <br>
+        <p>Explora nuestras secciones dedicadas a las rutas de senderismo, donde encontrarás descripciones detalladas de
+          las mejores rutas de montaña en Linares, junto con mapas, consejos y recomendaciones para cada nivel de
+          experiencia. Desde senderos suaves hasta desafiantes ascensos, hay opciones para todos los gustos y
+          habilidades.</p>
+      </div>
+
+      <div class="">
+        <p>Además de las rutas de senderismo, te presentamos una amplia gama de actividades emocionantes que puedes
+          disfrutar en la montaña de Linares. Desde escalada en roca hasta paseos en bicicleta de montaña, parapente y
+          rafting, hay aventuras para los amantes de la adrenalina. Si prefieres un enfoque más relajado, puedes
+          disfrutar de la observación de aves, la pesca en ríos cristalinos o simplemente maravillarte con los paisajes
+          impresionantes.</p>
+        <br>
+        <button type="button"
+          class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Leer
+          Más</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="bg-local bg-cover" style="background-image: url(img/fondo1.jfif)">
+    <h1 class="text-center text-3xl font-bold text-white">Montaña</h1><br>
+    <p class="text-center text-white">En nuestra página web también encontrarás información sobre alojamientos en la
+      montaña, desde acogedores refugios de montaña hasta cabañas y hoteles con vistas panorámicas. También te ofrecemos
+      recomendaciones sobre restaurantes locales, donde podrás degustar la deliciosa gastronomía regional después de un
+      día lleno de aventuras.</p><br>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+      <div>
+        <div class="max-w-xs rounded-md dark:bg-gray-900 dark:text-gray-100">
+          <img src="img/1.jfif" alt="" class="w-full rounded-t-md h-72 dark:bg-gray-500">
+          <div class="flex flex-col justify-between p-6 space-y-8">
+            <div class="space-y-2">
+              <h2 class="text-3xl font-semibold tracking-wide text-white">Información turística</h2>
+              <p class="dark:text-gray-100 text-white">Proporcionamos información detallada sobre las atracciones
+                turísticas, puntos de interés y lugares destacados de la región montañosa de Linares. Esto incluye
+                descripciones, recomendaciones y consejos para que puedas planificar tu itinerario de manera eficiente.
+              </p>
+            </div>
+            <button type="button"
+              class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Leer
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="max-w-xs rounded-md dark:bg-gray-900 dark:text-gray-100 mt-16">
+          <img src="img/2.jfif" alt="" class="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500">
+          <div class="flex flex-col justify-between p-6 space-y-8">
+            <div class="space-y-2">
+              <h2 class="text-3xl font-semibold tracking-wide text-white">Rutas de senderismo</h2>
+              <p class="dark:text-gray-100 text-white">Presentamos una selección de rutas de senderismo populares y
+                emocionantes en Linares. Ofrecemos descripciones detalladas de cada ruta, incluyendo nivel de
+                dificultad, distancia, tiempo estimado de recorrido, mapas y puntos destacados a lo largo del camino.
+              </p>
+            </div>
+            <button type="button"
+              class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Leer
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="max-w-xs rounded-md dark:bg-gray-900 dark:text-gray-100">
+          <img src="img/3.jfif" alt="" class="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500">
+          <div class="flex flex-col justify-between p-6 space-y-8">
+            <div class="space-y-2">
+              <h2 class="text-3xl font-semibold tracking-wide text-white">Actividades al aire libre</h2>
+              <p class="dark:text-gray-100 text-white">Te proporcionamos información sobre una amplia gama de
+                actividades al aire libre disponibles en la montaña de Linares. Esto incluye escalada en roca, paseos en
+                bicicleta de montaña, parapente, rafting, observación de aves, pesca y más.</p>
+            </div>
+            <button type="button"
+              class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Leer
+              más</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 flex flex-row">
+
+      <div>
+        <div class="max-w-xs rounded-md dark:bg-gray-900 dark:text-gray-100">
+          <img src="img/1.jfif" alt="" class=" w-full rounded-t-md h-72 dark:bg-gray-500">
+
+        </div>
+      </div>
+
+      <div>
+        <div class="max-w-xs rounded-md dark:bg-gray-900 dark:text-gray-100 ">
+          <img src="img/2.jfif" alt="" class="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500">
+
+        </div>
+      </div>
+
+      <div>
+        <div class="max-w-xs rounded-md dark:bg-gray-900 dark:text-gray-100">
+          <img src="img/3.jfif" alt="" class="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500">
+
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+  </section>
+
+  <section class="bg-auto bg-no-repeat bg-center " style="background-image: url(img/fondo3.jpg)">
+
+    <div
+      class=" w-auto rounded-md dark:bg-gray-900 dark:text-gray-100 container mx-auto bg-gray-900 bg-opacity-20 backdrop-filter backdrop-blur-lg p-6">
+      <h1 class="font-bold text-3xl text-center text-white">Nuestro Objetivo</h1>
+      <!-- Contenido adicional -->
+      <p class="text-center text-white">Nuestro objetivo es brindarte una experiencia integral y enriquecedora en la
+        montaña de Linares, ofreciéndote todos los servicios y recursos necesarios para que puedas disfrutar al máximo
+        de esta hermosa región natural.</p>
+    </div>
+  </section>
+
+  <!-- section contacto -->
+  <section class="py-6 dark:bg-gray-800 dark:text-gray-50">
+    <div class="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
+      <div class="py-6 md:py-0 md:px-6">
+        <h1 class="text-4xl font-bold">Ponerse en contacto</h1>
+        <p class="pt-2 pb-4">Rellena el formulario para iniciar una conversación</p>
+        <div class="space-y-4">
+          <p class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+              class="w-5 h-5 mr-2 sm:mr-6">
+              <path fill-rule="evenodd"
+                d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <span>linares dirección, 9999 City</span>
+          </p>
+          <p class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+              class="w-5 h-5 mr-2 sm:mr-6">
+              <path
+                d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z">
+              </path>
+            </svg>
+            <span>123456789</span>
+          </p>
+          <p class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+              class="w-5 h-5 mr-2 sm:mr-6">
+              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+            </svg>
+            <span>contact@business.com</span>
+          </p>
+        </div>
+      </div>
+      <form novalidate="" class="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+        <label class="block">
+          <span class="mb-1">nombre completo</span>
+          <input type="text" placeholder="Leroy tom"
+            class="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-emerald-400 dark:bg-gray-800">
+        </label>
+        <label class="block">
+          <span class="mb-1">Dirección de correo electrónico</span>
+          <input type="email" placeholder="leroytom@jenkins.com"
+            class="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-emerald-400 dark:bg-gray-800">
+        </label>
+        <label class="block">
+          <span class="mb-1">Mensaje</span>
+          <textarea rows="3"
+            class="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-emerald-400 dark:bg-gray-800"></textarea>
+        </label>
+        <button type="button"
+          class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+
+  <script src="js/slider.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
